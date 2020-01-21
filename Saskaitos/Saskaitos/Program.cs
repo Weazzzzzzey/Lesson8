@@ -34,7 +34,7 @@ namespace Saskaitos
         }
     }
 
-    struct Buhalterija
+    public struct Buhalterija
     {
         private int BuhalterineA;
         private List<Saskaita> saskaitos;
