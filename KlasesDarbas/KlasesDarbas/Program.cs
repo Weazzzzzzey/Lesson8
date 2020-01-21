@@ -30,6 +30,11 @@ namespace KlasesDarbas
         }
         public double trecioTrimestoVidurkis()
         {
+            if (!trimestas3.Any())
+            {
+                return 0;
+            }
+            else
             return trimestas3.Average();
         }
 

@@ -32,10 +32,8 @@ namespace KlasesDarbasTestU
         [TestMethod]
         public void ArGeraiAtspausdinsPirmoTrimestoVidurki()
         {
-            //SarasoAprasymas
-            uzpildymas();
-
             //Arange
+            uzpildymas();
             Mokinys Tomas = new Mokinys(pirmas, antras, trecias);
             //act
             double result = Tomas.pirmoTrimestoVidurkis();
